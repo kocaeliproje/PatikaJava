@@ -10,7 +10,7 @@ public class Matris {
         int boyutX = inp.nextInt();
         System.out.print("Matris Y boyutunu giriniz: ");
         int boyutY = inp.nextInt();
-        System.out.print(boyutX + " x " + boyutY + " Boyutlu Matrisin 1. satırını giriniz: ");
+        System.out.print(boyutX + " x " + boyutY + " Boyutlu Matrisin elemanlarını giriniz: ");
 
         int matris[][] = new int[boyutX][boyutX];
 
