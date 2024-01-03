@@ -12,7 +12,7 @@ public class Matris {
         int boyutY = inp.nextInt();
         System.out.print(boyutX + " x " + boyutY + " Boyutlu Matrisin elemanlarını giriniz: ");
 
-        int matris[][] = new int[boyutX][boyutX];
+        int matris[][] = new int[boyutX][boyutY];
 
         for (int i = 0; i < matris.length; i++) {
 
